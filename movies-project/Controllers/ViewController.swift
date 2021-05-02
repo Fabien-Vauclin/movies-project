@@ -33,6 +33,12 @@ class ViewController: UIViewController {
             .height/2
         timeView.clipsToBounds=true
     }
-
+    
+    
+    @IBAction func PlayTrailer(_ sender: UIButton) {
+        
+        UIApplication.shared.open(URL(string: "https://www.youtube.com/watch?v=ReIJ1lbL-Q8")!)
+    }
+    
 }
 
